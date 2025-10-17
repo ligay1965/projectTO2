@@ -6,7 +6,7 @@ import { Label } from './ui/label';
 import { Textarea } from './ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 import { useNavigate } from 'react-router-dom';
-
+import TruckLogo from '@/assets/truck-logo.png'
 interface HeaderProps {
   onModalOpen?: () => void;
 }
@@ -53,9 +53,9 @@ export function Header({ onModalOpen }: HeaderProps) {
             >
               {/* заменили шестикутник на PNG */}
               <img
-                src="/truck-logo.png"
+                src={TruckLogo}
                 alt="Термотранс логотип"
-                className="h-12 w-12 object-contain transition-transform duration-300 group-hover:scale-105"
+                className="h-12 w-12 object-contain transition-transform duration-300 group-hover:scale-105 rounded"
                 loading="eager"
               />
 

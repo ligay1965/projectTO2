@@ -347,7 +347,7 @@ export function HomePage() {
                   <Button 
                     variant="outline"
                     className="border-[#111111] text-[#111111] hover:bg-[#111111] hover:text-white rounded-full px-8 py-3 font-semibold shadow-lg hover:shadow-xl transition-all"
-                    onClick={() => window.open('https://maps.google.com/?q=48.4830,35.0250+(ТОВ+Термотранс,+вул.+Верстова,+33,+Дніпро)', '_blank')}
+                    onClick={() => window.open('https://maps.app.goo.gl/392Nkbh5wrRjJ7is5', '_blank')}
                   >
                     Прокласти маршрут
                   </Button>
@@ -371,7 +371,7 @@ export function HomePage() {
                       м. Дніпро, вул. Верстова, 33
                     </p>
                     <Button
-                      onClick={() => window.open('https://maps.google.com/?q=48.4830,35.0250+(ТОВ+Термотранс,+вул.+Верстова,+33,+Дніпро)', '_blank')}
+                      onClick={() => window.open('https://maps.app.goo.gl/392Nkbh5wrRjJ7is5', '_blank')}
                       className="bg-[#FFD400] text-[#111111] hover:bg-[#FFD400]/90 rounded-full px-6 py-2"
                     >
                       Відкрити в Google Maps
@@ -381,7 +381,7 @@ export function HomePage() {
                 
                 {/* Інтеграція з Google Maps */}
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.123456!2d35.0250!3d48.4830!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe29c7e3b2c47%3A0x12345!2z0LLRg9C7LiDQktC10YDRgdGC0L7QstCwLCAzMywg0JTQvdGW0L_RgNC-LCDQsNC90LXQuNGA0L7QstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA0OTAwMA!5e0!3m2!1suk!2sua!4v1640995200000"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2644.004061778901!2d35.014153!3d48.4948141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe3143ec4f1e3%3A0x61c267bcc258ab73!2sVantazhne%20Sto%20Termotrans!5e0!3m2!1sru!2sua!4v1760693920764!5m2!1sru!2sua"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

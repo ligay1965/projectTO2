@@ -24,7 +24,7 @@ export function Footer() {
             <h3 className="text-[#FFD400] font-semibold text-lg">Контакти</h3>
             <div className="space-y-2 text-gray-300">
               <p>м. Дніпро, вул. Верстова, 33</p>
-              <p>Телефон: +380 (67) 123-45-67</p>
+              <p>Телефон: +380 (93) 575-90-22</p>
               <p>Email: info@termotrans.com.ua</p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export function Footer() {
               <p>Пн–Пт: 9:00–18:00</p>
               <p>Сб: 9:00–15:00 (за записом)</p>
               <p>Нд: вихідний</p>
-              <p className="text-[#FFD400]">Висота воріт: 4,3 м</p>
+              <p className="text-[#FFD400]">Висота воріт: 4,5 м</p>
             </div>
           </div>
         </div>

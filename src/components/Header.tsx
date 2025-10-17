@@ -43,28 +43,22 @@ export function Header({ onModalOpen }: HeaderProps) {
   return (
     <>
       <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+<div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
+
             {/* Логотип */}
-            <div 
+            <div
               className="flex items-center space-x-3 cursor-pointer group"
               onClick={() => handleNavigation('/')}
             >
-              <div className="relative">
-                {/* Основний шестикутник */}
-                <div className="w-12 h-12 bg-gradient-to-br from-[#FFD400] to-[#FFC400] border-2 border-[#111111] transform rotate-0 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105"
-                     style={{
-                       clipPath: 'polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%)'
-                     }}>
-                  {/* Внутрішній елемент */}
-                  <div className="w-5 h-5 bg-[#111111] transform rotate-45 rounded-sm"></div>
-                </div>
-                
-                {/* Декоративні елементи */}
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-[#FFD400] rounded-full border border-[#111111] opacity-80"></div>
-                <div className="absolute -bottom-1 -left-1 w-2 h-2 bg-[#FFD400] rounded-full border border-[#111111] opacity-60"></div>
-              </div>
-              
+              {/* заменили шестикутник на PNG */}
+              <img
+                src="/truck-logo.png"
+                alt="Термотранс логотип"
+                className="h-12 w-12 object-contain transition-transform duration-300 group-hover:scale-105"
+                loading="eager"
+              />
+
               <div className="flex flex-col">
                 <span className="text-[#111111] text-xl font-bold tracking-tight group-hover:text-[#FFD400] transition-colors duration-300">
                   Термотранс
@@ -73,7 +67,7 @@ export function Header({ onModalOpen }: HeaderProps) {
                   Випробувальна лабораторія
                 </span>
               </div>
-            </div>
+            </div>
 
             {/* Навігація */}
             <nav className="hidden md:flex items-center space-x-8">

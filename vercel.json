@@ -1,0 +1,11 @@
+{
+  "projects": [
+    {
+      "src": "projectTO2/",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "projectTO2/dist"
+      }
+    }
+  ]
+}

@@ -65,7 +65,7 @@ export function ContactsPage() {
                   <h3 className="text-[#111111] font-semibold text-lg mb-2 flex items-center">
                     ✉️ Email
                   </h3>
-                  <p className="text-[#111111]">info@termotrans.com.ua</p>
+                  <p className="text-[#111111]">termotrans.ua@gmail.com</p>
                 </div>
                 
                 <div className="bg-[#FFD400] rounded-lg p-4">

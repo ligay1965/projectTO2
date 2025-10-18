@@ -25,7 +25,7 @@ export function Footer() {
             <div className="space-y-2 text-gray-300">
               <p>м. Дніпро, вул. Верстова, 33</p>
               <p>Телефон: +380 (93) 575-90-22</p>
-              <p>Email: info@termotrans.com.ua</p>
+              <p>Email: termotrans.ua@gmail.com</p>
             </div>
           </div>
 
